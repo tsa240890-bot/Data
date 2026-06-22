@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizzes | BizLearn</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="../index.html" class="brand">Biz<span>Learn</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="quizzes.html">Quizzes</a></li>
+          <li><a href="papers.html">Past Papers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Business Studies Quiz</h2>
+      <p>Answer all questions and click <strong>Submit</strong> to see your score. Correct answers are highlighted in green.</p>
+
+      <form id="quiz-form">
+        <div id="quiz-container"></div>
+        <button type="submit" class="btn">Submit Quiz</button>
+        <button type="button" id="quiz-retry" class="btn secondary">Retry</button>
+        <p id="quiz-result"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 BizLearn &mdash; Built for business studies students.</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>
